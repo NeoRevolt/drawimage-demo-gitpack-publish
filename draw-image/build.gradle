@@ -14,7 +14,7 @@ android {
         minSdkVersion 16
         targetSdkVersion 33
         versionCode 1
-        versionName "0.0.3"
+        versionName "0.0.5"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -44,11 +44,11 @@ android {
     }
 }
 
-def githubProperties = new Properties()
-githubProperties.load(new FileInputStream(rootProject.file("github.properties")))
-apply from: rootProject.file('github.properties')
-
 afterEvaluate {
+
+    def githubProperties = new Properties()
+    githubProperties.load(new FileInputStream(rootProject.file("github.properties")))
+
     publishing {
         publications {
             release(MavenPublication) {
@@ -58,8 +58,8 @@ afterEvaluate {
                 groupId 'com.github.neorevolt'
 
                 // Replace with the name of your library
-                artifactId 'draw-image'
-                version '0.0.3'
+                artifactId 'draw-image-gitpack'
+                version '0.0.5'
             }
 
             debug(MavenPublication) {
@@ -69,8 +69,8 @@ afterEvaluate {
                 groupId 'com.github.neorevolt'
 
                 // Replace with the name of your library
-                artifactId 'draw-image'
-                version '0.0.3'
+                artifactId 'draw-image-gitpack'
+                version '0.0.5'
             }
         }
 
@@ -80,7 +80,6 @@ afterEvaluate {
 
                 // Replace GITHUB_USERID with your personal or organisation user ID and
                 // REPOSITORY with the name of the repository on GitHub
-//                url = uri("https://maven.pkg.github.com/NeoRevolt/drawimage-demo-before-publish")
                 url = uri("https://maven.pkg.github.com/NeoRevolt/drawimage-demo-gitpack-publish")
 
                 credentials {
