@@ -1,6 +1,6 @@
 # drawimage-demo-gitpack-publish
 Demo android library for editing image for pest control.
-Published using Jitpack.
+Published with Github Package.
 
 ## Requirements
 * Android API lv16 or higher
