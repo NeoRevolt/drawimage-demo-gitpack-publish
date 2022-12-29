@@ -12,6 +12,8 @@ Published using Jitpack.
 * Go to Setting > Developer Settings > Personal Access Tokens > Generate new token
 * Make sure you select the following scopes:
 
+![Access Token](https://github.com/NeoRevolt/drawimage-demo-gitpack-publish/blob/master/acces_scope_github_token.PNG?raw=true)
+
 ### 2. Create ``github.properties`` file within the root project
 ```properties
     gpr.usr=YOUR_USERNAME //Change with your username and acces key
