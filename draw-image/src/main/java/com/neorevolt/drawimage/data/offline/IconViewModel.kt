@@ -10,6 +10,11 @@ import com.neorevolt.drawimage.data.offline.entity.IconEntity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
+/**
+ * @author [NeoRevolt](https://github.com/NeoRevolt)
+ * @version 0.0.1
+ * @since 7/1/2022
+ */
 class IconViewModel(application: Application): AndroidViewModel(application) {
     val readAllIcon: LiveData<List<IconEntity>>
     private val repository: IconRepository

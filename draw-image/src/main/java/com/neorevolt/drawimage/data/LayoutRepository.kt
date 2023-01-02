@@ -6,6 +6,11 @@ import com.neorevolt.drawimage.data.offline.entity.LayoutEntity
 import com.neorevolt.drawimage.data.offline.entity.TransactionEntity
 import com.neorevolt.drawimage.data.offline.room.LayoutDao
 
+/**
+ * @author [NeoRevolt](https://github.com/NeoRevolt)
+ * @version 0.0.1
+ * @since 7/1/2022
+ */
 class LayoutRepository constructor(
     private val layoutDao: LayoutDao
 ) {

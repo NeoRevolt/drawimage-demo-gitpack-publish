@@ -8,6 +8,11 @@ import com.neorevolt.drawimage.data.offline.entity.IconEntity
 import com.neorevolt.drawimage.data.offline.entity.LayoutEntity
 import com.neorevolt.drawimage.data.offline.entity.TransactionEntity
 
+/**
+ * @author [NeoRevolt](https://github.com/NeoRevolt)
+ * @version 0.0.1
+ * @since 7/1/2022
+ */
 @Database(entities = [IconEntity::class, LayoutEntity::class,TransactionEntity::class], version = 1, exportSchema = false)
 
 abstract class IconsDatabase : RoomDatabase() {

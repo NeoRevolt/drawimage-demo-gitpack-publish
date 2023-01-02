@@ -4,6 +4,11 @@ import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
+/**
+ * @author [NeoRevolt](https://github.com/NeoRevolt)
+ * @version 0.0.1
+ * @since 7/1/2022
+ */
 @Entity(tableName = "layoutTb")
 class LayoutEntity(
 

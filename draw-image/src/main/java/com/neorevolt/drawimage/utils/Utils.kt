@@ -14,6 +14,11 @@ import java.io.*
 import java.text.SimpleDateFormat
 import java.util.*
 
+/**
+ * @author [NeoRevolt](https://github.com/NeoRevolt)
+ * @version 0.0.1
+ * @since 7/1/2022
+ */
 private const val FILENAME_FORMAT = "dd-MMM-yyyy"
 
 val timeStamp: String = SimpleDateFormat(

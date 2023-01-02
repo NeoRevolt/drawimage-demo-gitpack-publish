@@ -5,6 +5,11 @@ import androidx.room.*
 import com.neorevolt.drawimage.data.offline.entity.LayoutEntity
 import com.neorevolt.drawimage.data.offline.entity.TransactionEntity
 
+/**
+ * @author [NeoRevolt](https://github.com/NeoRevolt)
+ * @version 0.0.1
+ * @since 7/1/2022
+ */
 @Dao
 interface LayoutDao {
     @Query("SELECT * FROM layoutTb ORDER BY id ASC")

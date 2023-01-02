@@ -11,6 +11,11 @@ import com.neorevolt.drawimage.data.offline.entity.TransactionEntity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
+/**
+ * @author [NeoRevolt](https://github.com/NeoRevolt)
+ * @version 0.0.1
+ * @since 7/1/2022
+ */
 class LayoutViewModel(application: Application) : AndroidViewModel(application) {
     val readAllLayout: LiveData<List<LayoutEntity>>
     val readAllTransaction: LiveData<List<TransactionEntity>>
