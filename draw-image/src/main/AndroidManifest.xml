@@ -10,9 +10,6 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application>
-        <activity
-            android:name=".EditorActivity"
-            android:exported="false" />
 
         <activity
             android:name=".EditImageActivity"

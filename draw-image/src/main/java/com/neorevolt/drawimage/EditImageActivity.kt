@@ -54,6 +54,9 @@ import java.lang.Float.min
 import java.util.concurrent.Executors
 import android.view.ScaleGestureDetector
 
+/**
+ * Modified by NeoRevolt on 2/1/2022.
+ */
 class EditImageActivity : BaseActivity(), OnPhotoEditorListener, View.OnClickListener,
     PropertiesBSFragment.Properties, ShapeBSFragment.Properties, EmojiBSFragment.EmojiListener,
     StickerBSFragment.StickerListener,
