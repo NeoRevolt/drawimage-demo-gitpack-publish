@@ -59,7 +59,7 @@ class ShapeBSFragment : BottomSheetDialogFragment(), SeekBar.OnSeekBarChangeList
         sbOpacity.setOnSeekBarChangeListener(this)
         sbBrushSize.setOnSeekBarChangeListener(this)
 
-        // TODO(lucianocheng): Move layoutManager to a xml file.
+        // Note(lucianocheng): Move layoutManager to a xml file.
         val layoutManager = LinearLayoutManager(activity, LinearLayoutManager.HORIZONTAL, false)
         rvColor.layoutManager = layoutManager
         rvColor.setHasFixedSize(true)

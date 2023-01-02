@@ -70,7 +70,6 @@ class StickerBSFragment : BottomSheetDialogFragment() {
         rvEmoji.adapter = stickerAdapter
         rvEmoji.setHasFixedSize(true)
 
-        //TODO : Try to fix the logic for sticker
         mIconViewModel = ViewModelProvider(this).get(IconViewModel::class.java)
         if (iconPestList.isNotEmpty()) {
             mIconViewModel.deleteIconFromDB()

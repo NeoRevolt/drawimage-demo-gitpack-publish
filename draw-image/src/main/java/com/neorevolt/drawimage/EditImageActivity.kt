@@ -290,7 +290,7 @@ class EditImageActivity : BaseActivity(), OnPhotoEditorListener, View.OnClickLis
         }
     }
 
-    // TODO : Share to different app
+    // Note : Share to different app
     private fun shareImage() {
         val intent = Intent(Intent.ACTION_SEND)
         intent.type = "image/*"

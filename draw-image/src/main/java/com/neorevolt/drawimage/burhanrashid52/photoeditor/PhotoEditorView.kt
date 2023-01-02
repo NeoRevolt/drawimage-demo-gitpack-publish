@@ -68,7 +68,7 @@ class PhotoEditorView @JvmOverloads constructor(
     private fun setupImageSource(attrs: AttributeSet?): LayoutParams {
         mImgSource.id = imgSrcId
         mImgSource.adjustViewBounds = true
-        //TODO NOTE (Neo): Ubah apabila ukuran gambar yang diedit berubah.
+        //NOTE (Neo): Editor Image Scale Type.
         mImgSource.scaleType = ImageView.ScaleType.FIT_CENTER
 
         attrs?.let {
