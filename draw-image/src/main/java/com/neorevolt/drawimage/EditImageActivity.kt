@@ -55,7 +55,7 @@ import java.util.concurrent.Executors
 import android.view.ScaleGestureDetector
 
 /**
- * Modified by NeoRevolt on 2/1/2022.
+ * Modified by NeoRevolt on 3/1/2022.
  */
 class EditImageActivity : BaseActivity(), OnPhotoEditorListener, View.OnClickListener,
     PropertiesBSFragment.Properties, ShapeBSFragment.Properties, EmojiBSFragment.EmojiListener,
