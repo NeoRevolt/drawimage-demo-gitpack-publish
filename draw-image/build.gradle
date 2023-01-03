@@ -14,7 +14,7 @@ android {
         minSdkVersion 16
         targetSdkVersion 33
         versionCode 1
-        versionName "0.0.7"
+        versionName "0.0.5"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -59,7 +59,7 @@ afterEvaluate {
 
                 // Replace with the name of your library
                 artifactId 'draw-image-gitpack'
-                version '0.0.7'
+                version '0.0.5'
             }
 
             debug(MavenPublication) {
@@ -70,7 +70,7 @@ afterEvaluate {
 
                 // Replace with the name of your library
                 artifactId 'draw-image-gitpack'
-                version '0.0.7'
+                version '0.0.5'
             }
         }
 
